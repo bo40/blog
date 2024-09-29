@@ -1,2 +1,2 @@
 # blog
-blog.40bo.net
+blog.bo40.net
