@@ -10,6 +10,8 @@ defaultContentLanguage: "ja"
 pagination:
   pagerSize: 10
 
+summaryLength: 20
+
 pluralizeListTitles: false
 
 # Required to get well formatted code blocks
