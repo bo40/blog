@@ -1,0 +1,25 @@
+/* Light mode theming */
+
+:root,
+:root[color-theme="light"] {
+  --header-background: #95c9e6;
+  --header-font-color: #050505;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --header-background: #95c9e6;
+    --header-font-color: #050505;
+  }
+}
+
+/* Dark mode theming */
+:root[color-theme="dark"] {
+  --header-background: #4ec58a;
+  --header-font-color: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --header-background: #4ec58a;
+    --header-font-color: #ffffff;
+  }
+}

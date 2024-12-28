@@ -1,0 +1,10 @@
+header:
+  - name: GitHub
+    icon: gblog_github
+    ref: "https://github.com/bo40"
+    external: true
+
+footer:
+  - name: About this blog
+    icon: gblog_person
+    ref: "/about"

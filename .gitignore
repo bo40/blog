@@ -17,4 +17,13 @@ _site/
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
 
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Temporary lock file while building
+/.hugo_build.lock
+
 themes/hugo-geekblog
