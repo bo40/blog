@@ -1,25 +1,40 @@
+/* Global customization */
+.gblog-footer {
+  background: #3c3c3c;
+  color: #f8f9fa;
+}
+
+.gblog-nav {
+  background: #3c3c3c;
+  color: #f8f9fa;
+  min-height: .25rem;
+}
+
 /* Light mode theming */
 
 :root,
 :root[color-theme="light"] {
-  --header-background: #95c9e6;
-  --header-font-color: #050505;
+  --header-background: #9ce1fe;
+  --header-font-color: #000000;
+  --footer-background: #282828;
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --header-background: #95c9e6;
-    --header-font-color: #050505;
+    --header-background: #9ce1fe;
+    --header-font-color: #000000;
+    --footer-background: #282828;
   }
 }
 
 /* Dark mode theming */
 :root[color-theme="dark"] {
-  --header-background: #4ec58a;
+  --header-background: #002637;
   --header-font-color: #ffffff;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --header-background: #4ec58a;
+    --header-background: #002637;
     --header-font-color: #ffffff;
   }
 }
+

@@ -5,7 +5,7 @@ theme: "hugo-geekblog"
 googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
-footnotereturnlinkcontents: "↩"
+defaultContentLanguage: "ja"
 
 pagination:
   pagerSize: 10
@@ -25,18 +25,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-    extensions:
-      passthrough:
-        enable: true
-        delimiters:
-          block:
-          - - \[
-            - \]
-          - - $$
-            - $$
-          inline:
-          - - \(
-            - \)
   tableOfContents:
     startLevel: 1
     endLevel: 9
@@ -85,7 +73,7 @@ params:
 
   # (Optional, default static/brand.svg) Set the path to a logo for the Geekblog
   # relative to your 'static/' folder.
-  logo: logo.png
+  logo: logo.svg
 
   # (Optional, default 6) Set how many table of contents levels to be showed on page.
   # Use false to hide ToC, note that 0 will default to 6 (https://gohugo.io/functions/default/)
